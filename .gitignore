@@ -1,0 +1,8 @@
+.vscode
+build
+data
+bin
+devel
+.catkin_workspace
+output
+draft*

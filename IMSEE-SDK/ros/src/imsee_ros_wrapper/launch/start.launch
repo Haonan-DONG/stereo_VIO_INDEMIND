@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="imsee" default="imsee" />
+  <group ns="$(arg imsee)">
+    <node name="imsee_wrapper_node" pkg="imsee_ros_wrapper" type="imsee_wrapper_node" output="screen" respawn="true" respawn_delay="10">
+      <rosparam file="$(find imsee_ros_wrapper)/config/settings.yaml" command="load" />
+    </node>
+  <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find imsee_ros_wrapper)/rviz/imsee.rviz" output="screen" /> -->
+
+  </group>
+</launch>
