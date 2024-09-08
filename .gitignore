@@ -5,3 +5,5 @@ lib
 bin
 devel
 .catkin_workspace
+output
+draft*
