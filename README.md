@@ -24,5 +24,5 @@ roslaunch imsee_ros_wrapper start.launch/display.launch
 
 
 ## TODO
-- [X] add adaptived indemind sdk
+- [X] add adapted indemind sdk
 - [ ] suit OpenVINS.
