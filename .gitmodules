@@ -1,0 +1,3 @@
+[submodule "openvins_ws/src/open_vins"]
+	path = openvins_ws/src/open_vins
+	url = https://github.com/rpng/open_vins.git
