@@ -45,7 +45,14 @@ For convenience, we upload the test data for china mainland users in Baidu Disk.
 
 ## TODO
 - [X] add adapted indemind sdk
-- [ ] suit OpenVINS.
+- [X] suit OpenVINS for indemind sdk.
     - [X] Upload original OpenVINS code
     - [X] Upload datasets.
-    - [ ] Remove ros from openvins
+- [ ] refactor openvins: ros wrapper
+    - [ ] ros wrapper.
+- [ ] refactor openvins: algorithm core
+    - [ ] image feature.
+- [ ] refactor openvins: visualization
+    - [ ] OpenGL suit
+- [ ] refactor openvins: mobile platform
+    - [ ] RK platform suit.
