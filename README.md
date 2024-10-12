@@ -35,6 +35,16 @@ source devel/setup.bash
 roslaunch ov_msckf subscribe.launch config:=euroc_mav
 ## term 2
 rosbag play V1_01_easy.bag
+
+# RUN the demo for INDEMIND.
+## term 0
+roscore
+## term 1 for indemind sdk
+sudo su
+source devel/setup.bash
+roslaunch imsee_ros_wrapper start.launch
+## term 2 for openvins
+roslaunch ov_msckf subscribe.launch config:=indemind
 ```
 
 ## Dataset
